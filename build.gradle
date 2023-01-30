@@ -17,6 +17,11 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
+    implementation group: 'org.mongodb', name: 'mongodb-driver-sync', version: '4.8.2'
+    // https://mvnrepository.com/artifact/org.mongodb/mongodb-crypt
+    implementation group: 'org.mongodb', name: 'mongodb-crypt', version: '1.6.1'
+
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
 
